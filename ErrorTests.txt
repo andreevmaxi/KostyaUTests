@@ -1,0 +1,470 @@
+Error test2:
+CharProblem = 0
+StrProblem = 0
+CharOnProblemStr = 0
+text output:
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 334, function "int Size_Change(Stack_t*, int)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 29780, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = 1
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 276, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "stk1" [0x28feec] (Error)
+{
+    current size = 10
+    maximal allocated size = 22
+    hash = 31913, expected 31913
+    data[22] = [0x560f44]
+     {
+          *[0] = -666 [It might be empty]
+          *[1] = 1
+          *[2] = 1
+          *[3] = 1
+          *[4] = 1
+          *[5] = 1
+          *[6] = 1
+          *[7] = 1
+          *[8] = 1
+          *[9] = 1
+           [10] = -666 [It might be empty]
+           [11] = -666 [It might be empty]
+           [12] = -666 [It might be empty]
+           [13] = -666 [It might be empty]
+           [14] = -666 [It might be empty]
+           [15] = -666 [It might be empty]
+           [16] = -666 [It might be empty]
+           [17] = -666 [It might be empty]
+           [18] = -666 [It might be empty]
+           [19] = -666 [It might be empty]
+           [20] = -666 [It might be empty]
+           [21] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+value = 5
+
+
+Test Ans:
+
+value = -666
+
+

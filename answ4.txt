@@ -1,0 +1,22 @@
+
+
+
+From file C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h, line 250, function "elem_t Stack_Pop(Stack_t*)"
+Stack_t "(null)" [0x28fef8] (Error)
+{
+    current size = 1
+    maximal allocated size = 5
+    hash = 32940, expected 1471
+    data[5] = [0x7a0f94]
+     {
+          *[0] = -666 [It might be empty]
+           [1] = -666 [It might be empty]
+           [2] = -666 [It might be empty]
+           [3] = -666 [It might be empty]
+           [4] = -666 [It might be empty]
+     }
+Error = 5
+}
+
+
+value = 5

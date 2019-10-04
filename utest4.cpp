@@ -3,19 +3,15 @@
 
 int main()
 {
-    *stdout = *(fopen("rtrn1.txt", "w"));
-
     Stack_t stk1;
     Stack_Constructor (stk1);
 
-    Stack_Push (&stk1, 27);
+    *stdout = *(fopen("rtrn4.txt", "w"));
 
-    int val = Stack_Pop (&stk1);
-
-    printf ("value = %d\n", val);
-
+    Stack_Push(&stk1, -666);
+    stk1.name = NULL;
+    printf("value = %d", Stack_Pop(&stk1));
     Stack_Destruct (&stk1);
     fclose(stdout);
-
     return 0;
 }

@@ -3,7 +3,7 @@
 #include <cstdio>
 #include "Stack_Dyn_Head.h"
 
-const int TNumber = 4;
+const int TNumber = 3;
 
 bool PrintError(FILE* fr, FILE* fw); // prints errors in errors
 
@@ -13,15 +13,25 @@ int main()
     {
     FILE* Errors = fopen("ErrorTests.txt", "w");
     FILE* TestDone = fopen("ResultTests.txt", "w");
+    FILE* tmp;
 
     char FileRtrnName[10] = "rtrn0.txt";
     char TestName[11] = "utest0.exe";
 
     for(int i = 1; i <= TNumber; ++i)
         {
+
         TestName[5] = i + '0';
 
+
+        FileRtrnName[4] = i + '0';
+        fprintf(Errors, "%s", FileRtrnName);
+        tmp = (fopen(FileRtrnName, "w"));
+        stdout = *tmp;
+
         system(TestName);
+
+        fclose(tmp);
         AnswCompare(i, Errors, TestDone);
         }
     }

@@ -4,108 +4,72 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 <body>
 <tt>
-Build started on: <u>04-10-2019 at 16:20.40</u><br />
-Build ended on: <u>04-10-2019 at 16:20.42</u><p />
+Build started on: <u>04-10-2019 at 19:17.50</u><br />
+Build ended on: <u>04-10-2019 at 19:17.51</u><p />
 <b>-------------- Build: Debug in KostyaUTest (compiler: GNU GCC Compiler - Strict + Fast (SINGLE FILES ONLY))---------------</b><br />
-mingw32-g++.exe "C:\Users\Maksim\Documents\GitHub\MyStack\test (2).cpp" -o bin\Debug\KostyaUTest.exe -mconsole  -Wall -fexceptions  -g  -Wshadow -Winit-self -Wredundant-decls -Wcast-align -Wundef -Wfloat-equal -Winline -Wunreachable-code -Wmissing-declarations -Wmissing-include-dirs -Wswitch-enum -Wswitch-default -Weffc++ -Wmain -Wextra -Wall -g -pipe -fexceptions -Wcast-qual -Wconversion -Wctor-dtor-privacy -Wempty-body -Wformat-security -Wformat=2 -Wignored-qualifiers -Wlogical-op -Wmissing-field-initializers -Wnon-virtual-dtor -Woverloaded-virtual -Wpointer-arith -Wsign-promo -Wstack-usage=8192 -Wstrict-aliasing -Wstrict-null-sentinel -Wtype-limits -Wwrite-strings -D_DEBUG -D_EJUDGE_CLIENT_SIDE -D_EJC -D__slowpoke -D_VORONEZH<br />
-In file included from C:\Users\Maksim\Documents\GitHub\MyStack\test (2).cpp:3:0:<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h: In function 'long long unsigned int StackHash(DedStack_t*)':<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:204:13: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-     DEB(tmp *= MaxHashKey);<br />
+mingw32-g++.exe "C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp" -o bin\Debug\KostyaUTest.exe -mconsole  -Wall -fexceptions  -g  -Wshadow -Winit-self -Wredundant-decls -Wcast-align -Wundef -Wfloat-equal -Winline -Wunreachable-code -Wmissing-declarations -Wmissing-include-dirs -Wswitch-enum -Wswitch-default -Weffc++ -Wmain -Wextra -Wall -g -pipe -fexceptions -Wcast-qual -Wconversion -Wctor-dtor-privacy -Wempty-body -Wformat-security -Wformat=2 -Wignored-qualifiers -Wlogical-op -Wmissing-field-initializers -Wnon-virtual-dtor -Woverloaded-virtual -Wpointer-arith -Wsign-promo -Wstack-usage=8192 -Wstrict-aliasing -Wstrict-null-sentinel -Wtype-limits -Wwrite-strings -D_DEBUG -D_EJUDGE_CLIENT_SIDE -D_EJC -D__slowpoke -D_VORONEZH<br />
+In file included from C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:4:0:<br />
+C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h: In function 'int Dump_Def(Stack_t*, int, const char*, const char*)':<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h:77:52: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'Stack_t*' [-Wformat=]</font><br />
+     printf ("Stack_t \"%s\" [0x%x]", stk-&gt;name, stk);<br />
+                                                    ^<br />
+In file included from C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:4:0:<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h:86:64: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'elem_t* {aka int*}' [-Wformat=]</font><br />
+     printf ("    data[%d] = [0x%x]\n", stk-&gt;max_size, stk-&gt;data);<br />
+                                                                ^<br />
+C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h: In function 'long int Hash(Stack_t*)':<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h:126:57: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]</font><br />
+     for (j = 0; j &lt; sizeof (Stack_t) - sizeof (stk-&gt;hash); j++)<br />
+                                                         ^<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h:130:13: warning: statement has no effect [-Wunused-value]</font><br />
+         sum &lt;&lt; 2;<br />
              ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
+C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h: In function 'int Stack_Destruct(Stack_t*)':<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\Stack_Dyn_Head.h:185:9: warning: unused variable 'i' [-Wunused-variable]</font><br />
+     int i = 0;<br />
+         ^<br />
+C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp: In function 'int main()':<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:21:25: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+         TestName[5] = i + '0';<br />
                          ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:206:13: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-     DEB(tmp *= MaxHashKey);<br />
-             ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:214:13: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-     DEB(tmp *= MaxHashKey);<br />
-             ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:216:13: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-     DEB(tmp *= MaxHashKey);<br />
-             ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:224:13: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-     DEB(tmp *= MaxHashKey);<br />
-             ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:226:13: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-     DEB(tmp *= MaxHashKey);<br />
-             ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:236:17: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-         DEB(tmp *= MaxHashKey);<br />
-                 ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:238:17: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-         DEB(tmp *= MaxHashKey);<br />
-                 ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:247:13: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-     DEB(tmp *= MaxHashKey);<br />
-             ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:249:13: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-     DEB(tmp *= MaxHashKey);<br />
-             ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:261:17: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-         DEB(tmp *= MaxHashKey);<br />
-                 ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:263:17: warning: conversion to 'StackElem_t {aka int}' from 'long long unsigned int' may alter its value [-Wconversion]</font><br />
-         DEB(tmp *= MaxHashKey);<br />
-                 ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h: In function 'void DUMP(DedStack_t*, std::string, int, std::string)':<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:430:56: warning: format '%o' expects argument of type 'unsigned int', but argument 3 has type 'DedStack_t*' [-Wformat=]</font><br />
-     fprintf(f, "StuckDump with pointer: [%o]\n", aStack);<br />
-                                                        ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:456:70: warning: format '%o' expects argument of type 'unsigned int', but argument 3 has type 'long long unsigned int' [-Wformat=]</font><br />
-     DEB(fprintf(f, "    memorized hash    = [%o] \n", aStack-&gt;StkHash));<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:24:29: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+         FileRtrnName[4] = i + '0';<br />
+                             ^<br />
+C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp: In function 'bool AnswCompare(int, FILE*)':<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:36:36: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+     FileRtrnName[4] = NumberOfTest + '0';<br />
+                                    ^<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:39:36: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+     FileAnswName[4] = NumberOfTest + '0';<br />
+                                    ^<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:53:35: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+     while ( (tmp1 = getc (FileRtrn)) != EOF &amp;&amp; (tmp2 = getc (FileAnsw)) != EOF &amp;&amp; IsAnsIsGood )<br />
+                                   ^<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:53:70: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+     while ( (tmp1 = getc (FileRtrn)) != EOF &amp;&amp; (tmp2 = getc (FileAnsw)) != EOF &amp;&amp; IsAnsIsGood )<br />
                                                                       ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:16:25: note: in definition of macro 'DEB'<br />
-     #define DEB( code ) code<br />
-                         ^<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:459:77: warning: format '%o' expects argument of type 'unsigned int', but argument 3 has type 'long long unsigned int' [-Wformat=]</font><br />
-         fprintf(f, "*!!!hash of stack now = [%o]  !!!*\n", StackHash(aStack));<br />
-                                                                             ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h: In function 'void StackDestruck(DedStack_t*)':<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:494:13: warning: the address of 'bool IsEmptyStack(DedStack_t*)' will always evaluate as 'true' [-Waddress]</font><br />
-     while (!IsEmptyStack)<br />
-             ^<br />
-C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h: In function 'bool NormalizeSize(DedStack_t*)':<br />
-<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h:556:5: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:59:35: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+             (tmp2 = getc (FileAnsw));<br />
+                                   ^<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:63:35: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+             (tmp1 = getc (FileRtrn));<br />
+                                   ^<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:89:59: warning: too many arguments for format [-Wformat-extra-args]</font><br />
+         fprintf(Errors, "\n\nTest Text:\n\n", NumberOfTest);<br />
+                                                           ^<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:91:58: warning: too many arguments for format [-Wformat-extra-args]</font><br />
+         fprintf(Errors, "\n\nTest Ans:\n\n", NumberOfTest);<br />
+                                                          ^<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:100:5: warning: no return statement in function returning non-void [-Wreturn-type]</font><br />
      }<br />
      ^<br />
-Output size is 460,88 KB<br />
-<font color="#0000ff">Process terminated with status 0 (0 minutes, 1 seconds)</font><br />
-<font color="#0000ff">0 errors, 17 warnings (0 minutes, 1 seconds)</font><br />
+C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp: In function 'bool PrintError(FILE*, FILE*)':<br />
+<font color="#0000ff">C:\Users\Maksim\Documents\GitHub\KostyaUTests\MainTester.cpp:108:28: warning: conversion to 'char' from 'int' may alter its value [-Wconversion]</font><br />
+     while ( (tmp = getc (fr)) != EOF)<br />
+                            ^<br />
+Output size is 298,92 KB<br />
+<font color="#0000ff">Process terminated with status 0 (0 minutes, 0 seconds)</font><br />
+<font color="#0000ff">0 errors, 17 warnings (0 minutes, 0 seconds)</font><br />
 </tt>
 </body>
 </html>
