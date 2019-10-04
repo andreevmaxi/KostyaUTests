@@ -1,0 +1,81 @@
+sosat
+StuckDump with pointer: [12177320]
+Printed from: C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h in line: 511 in FUCtion: bool StackPush(DedStack_t*, StackElem_t)
+Stack "stk1" [12177320](UNK)
+    {
+    size = 4
+    data[4] = [12177340]
+    memorized hash    = [3567203177] 
+        {
+       *[0] = 10
+       *[1] = -230[MB Poison]
+        [2] = -230[MB Poison]
+        [3] = -230[MB Poison]
+        }
+err = 2 (UNK)
+    }
+
+StuckDump with pointer: [12177320]
+Printed from: C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h in line: 495 in FUCtion: bool StackPush(DedStack_t*, StackElem_t)
+Stack "stk1" [12177320](UNK)
+    {
+    size = 4
+    data[4] = [12177340]
+    memorized hash    = [3567203177] 
+        {
+       *[0] = 10
+       *[1] = -230[MB Poison]
+        [2] = -230[MB Poison]
+        [3] = -230[MB Poison]
+        }
+err = 2 (UNK)
+    }
+
+StuckDump with pointer: [12177320]
+Printed from: C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h in line: 511 in FUCtion: bool StackPush(DedStack_t*, StackElem_t)
+Stack "stk1" [12177320](UNK)
+    {
+    size = 4
+    data[4] = [12177340]
+    memorized hash    = [7143354701] 
+        {
+       *[0] = 10
+       *[1] = -230[MB Poison]
+       *[2] = -230[MB Poison]
+        [3] = -230[MB Poison]
+        }
+err = 2 (UNK)
+    }
+
+StuckDump with pointer: [12177320]
+Printed from: C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h in line: 413 in FUCtion: StackElem_t PopStack(DedStack_t*)
+Stack "stk1" [12177320](UNK)
+    {
+    size = 4
+    data[4] = [12177340]
+    memorized hash    = [7143354701] 
+        {
+       *[0] = 10
+       *[1] = -230[MB Poison]
+       *[2] = -230[MB Poison]
+        [3] = -230[MB Poison]
+        }
+err = 2 (UNK)
+    }
+
+StuckDump with pointer: [12177320]
+Printed from: C:\Users\Maksim\Documents\GitHub\MyStack\MaksStack.h in line: 528 in FUCtion: void StackDestruck(DedStack_t*)
+Stack "stk1" [12177320](UNK)
+    {
+    size = 4
+    data[4] = [12177340]
+    memorized hash    = [3567203177] 
+        {
+       *[0] = 10
+       *[1] = -230[MB Poison]
+        [2] = -230[MB Poison]
+        [3] = -230[MB Poison]
+        }
+err = 2 (UNK)
+    }
+

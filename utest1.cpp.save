@@ -1,0 +1,7 @@
+#include <cstdio>
+#include "Stack_Dyn_Head.h"
+
+int main()
+{
+    FILE* f = fopen("")
+}
